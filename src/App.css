@@ -33,6 +33,15 @@ body {
 .App-link {
   color: #61dafb;
 }
+/*.nav {*/
+/*  background-color: #000 !important;*/
+/*}*/
+
+.nav-item>button{
+  color: #000000 !important;
+  /*font-weight: bold !important;*/
+  font-size:1.5em;
+}
 
 
 @keyframes App-logo-spin {

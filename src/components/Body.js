@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import {Button, Card, CardGroup, Col, Container, Row} from "react-bootstrap";
+import {Button, Card, Col, Container, Row} from "react-bootstrap";
 import researchIMG from '../images/research.png'
 import innovationIMG from '../images/innovation.jpg'
 import workforceIMG from '../images/workforce.png'
 import inclusionIMG from '../images/inclusion.jpg'
 import {Hpe} from "./HPE";
-
+import {BodyThrusts} from "./BodyThrusts";
 
 export class Body extends Component {
     imgStyle = {height: '18em'}
