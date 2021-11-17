@@ -11,7 +11,7 @@ export class Hpe extends Component {
             <div style={this.divSpaceUpStyle}>
                 <Container className="text-center">
                     <Row>
-                        <Col>
+                        <Col sm={12} md={6} lg={4}>
                             <Card style={this.cardStyle}>
                                 <Card.Img variant="top" src={healthIcon} />
                                 <Card.Body>
@@ -22,7 +22,7 @@ export class Hpe extends Component {
                             </Card>
                         </Col>
 
-                        <Col>
+                        <Col sm={12} md={6} lg={4}>
                             <Card style={this.cardStyle}>
                                 <Card.Img variant="top" src={leafIcon} />
                                 <Card.Body>
@@ -33,7 +33,7 @@ export class Hpe extends Component {
                             </Card>
                         </Col>
 
-                        <Col>
+                        <Col sm={12} md={6} lg={4}>
                             <Card style={this.cardStyle}>
                                 <Card.Img variant="top" src={equityIcon} />
                                 <Card.Body>
