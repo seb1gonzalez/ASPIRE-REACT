@@ -5,9 +5,9 @@ import innovationIMG from '../images/innovation.jpg'
 import workforceIMG from '../images/workforce.png'
 import inclusionIMG from '../images/inclusion.jpg'
 import {Hpe} from "./HPE";
-import {BodyThrusts} from "./BodyThrusts";
+import aspirevideo from "../videos/aspire.mp4";
 
-export class Body extends Component {
+export class Home extends Component {
     imgStyle = {height: '18em'}
     buttonCardStyle = {marginTop: "3em", marginBottom: "1em",};
     divSpaceUpStyle = {marginTop: "4em"}
@@ -15,7 +15,24 @@ export class Body extends Component {
 
     render() {
         return (
-            <div style={this.divSpaceUpStyle}>
+            <div >
+                <div>
+                    <video style={{backgroundColor: 'black'}} height="800" width="100%" controls muted autoPlay >
+                        <source src={aspirevideo} type="video/mp4"/>
+                    </video>
+                </div>
+
+                <div>
+                    <Container className="text-center" fluid>
+                        <h1 style={{color:"#e3a300"}}>ASPIRE</h1>
+                        <h3><span style={{color:"#e3a300"}}>A</span>dvancing
+                            <span style={{color:"#e3a300"}}> S</span>ustainability through
+                            <span style={{color:"#e3a300"}}> P</span>owered
+                            <span style={{color:"#e3a300"}}> I</span>nfrastructure for
+                            <span style={{color:"#e3a300"}}> R</span>oadway
+                            <span style={{color:"#e3a300"}}> E</span>lectrification</h3>
+                    </Container>
+                </div>
                 <Container fluid>
                     {/*Research, Workforce, Innovation, Inclusion*/}
                     <Row  className="text-center">
