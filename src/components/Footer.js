@@ -8,7 +8,7 @@ import aspireLogo from '../images/aspire-logo-white.png';
 class Footer extends Component {
     render() {
         return (
-            <div style={{backgroundColor:utep_styles.blue,width:"100%", marginTop:"2em"}}>
+            <div style={{backgroundColor:utep_styles.blue,width:"100%", marginTop:"2em",bottom:"0em"}}>
                 <Container >
                     <Row>
                         <Col sm={12} lg={6} style={{marginRight:"2em"}}>
