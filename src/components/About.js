@@ -9,7 +9,7 @@ class About extends Component {
                 <Container>
                     <Row>
                         <Col lg={3}>
-                            <Image src={NazarianJPG}/>
+                            <Image src={NazarianJPG} height="350px"/>
                         </Col>
                         <Col lg={9}>
                             On behalf of the students, staff and faculty affiliated with CTIS, I would like to welcome you to our webpage. The main goals of the Center for Transportation Infrastructure Systems are to address the needs for basic and applied research as related to the transportation infrastructure. Most transportation, pavement and geotechnical engineering research projects at UTEP are concentrated under this Center. We are one of the best equipped research facilities in the Southwest.
