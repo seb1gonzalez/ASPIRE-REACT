@@ -16,13 +16,15 @@ function App() {
       <div>
           <Header/>
           <Routes>
-              <Route path="/" element={<Home/>} />
-              <Route path="/about" element={<About/>}/>
-              <Route path="/research" element={<Research/>}/>
-              <Route path="/people" element={<People/>}/>
-              <Route path="/Education" element={<Education/>}/>
-              <Route path="/Inclusion" element={<Inclusion/>}/>
-              <Route path="/industry" element={<Industry/>}/>
+            
+                <Route path="/aspire" element={<Home/>} />
+                <Route path="/aspire/about" element={<About/>}/>
+                <Route path="/aspire/research" element={<Research/>}/>
+                <Route path="/aspire/people" element={<People/>}/>
+                <Route path="/aspire/education" element={<Education/>}/>
+                <Route path="/aspire/inclusion" element={<Inclusion/>}/>
+                <Route path="/aspire/industry" element={<Industry/>}/>
+       
           </Routes>
           <Footer/>
       </div>
