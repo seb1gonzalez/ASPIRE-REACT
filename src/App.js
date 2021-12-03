@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-      <div>
+      <div style={{backgroundColor:"#eceff1"}}>
           <Header/>
           <Routes>
             
